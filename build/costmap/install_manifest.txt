@@ -1,0 +1,17 @@
+/home/joshua/wato_asd_training/install/costmap/lib/costmap/costmap_node
+/home/joshua/wato_asd_training/install/costmap/share/costmap/config/params.yaml
+/home/joshua/wato_asd_training/install/costmap/share/ament_index/resource_index/package_run_dependencies/costmap
+/home/joshua/wato_asd_training/install/costmap/share/ament_index/resource_index/parent_prefix_path/costmap
+/home/joshua/wato_asd_training/install/costmap/share/costmap/environment/ament_prefix_path.sh
+/home/joshua/wato_asd_training/install/costmap/share/costmap/environment/ament_prefix_path.dsv
+/home/joshua/wato_asd_training/install/costmap/share/costmap/environment/path.sh
+/home/joshua/wato_asd_training/install/costmap/share/costmap/environment/path.dsv
+/home/joshua/wato_asd_training/install/costmap/share/costmap/local_setup.bash
+/home/joshua/wato_asd_training/install/costmap/share/costmap/local_setup.sh
+/home/joshua/wato_asd_training/install/costmap/share/costmap/local_setup.zsh
+/home/joshua/wato_asd_training/install/costmap/share/costmap/local_setup.dsv
+/home/joshua/wato_asd_training/install/costmap/share/costmap/package.dsv
+/home/joshua/wato_asd_training/install/costmap/share/ament_index/resource_index/packages/costmap
+/home/joshua/wato_asd_training/install/costmap/share/costmap/cmake/costmapConfig.cmake
+/home/joshua/wato_asd_training/install/costmap/share/costmap/cmake/costmapConfig-version.cmake
+/home/joshua/wato_asd_training/install/costmap/share/costmap/package.xml

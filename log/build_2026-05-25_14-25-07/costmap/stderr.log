@@ -1,0 +1,8 @@
+In file included from [01m[K/home/joshua/wato_asd_training/src/robot/costmap/src/costmap_core.cpp:1[m[K:
+[01m[K/home/joshua/wato_asd_training/src/robot/costmap/src/costmap_core.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/occupancy_grid.hpp: No such file or directory
+    5 | #include [01;31m[K"nav_msgs/msg/occupancy_grid.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/costmap_lib.dir/build.make:76: CMakeFiles/costmap_lib.dir/src/costmap_core.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/costmap_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

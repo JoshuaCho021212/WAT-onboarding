@@ -1,0 +1,41 @@
+[0.362s] Invoking command in '/home/joshua/wato_asd_training/build/costmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/joshua/wato_asd_training/src/robot/costmap -DCMAKE_INSTALL_PREFIX=/home/joshua/wato_asd_training/install/costmap
+[3.630s] -- The C compiler identification is GNU 13.3.0
+[7.277s] -- The CXX compiler identification is GNU 13.3.0
+[9.674s] -- Detecting C compiler ABI info
+[12.798s] -- Detecting C compiler ABI info - done
+[12.839s] -- Check for working C compiler: /usr/bin/cc - skipped
+[12.846s] -- Detecting C compile features
+[12.854s] -- Detecting C compile features - done
+[13.825s] -- Detecting CXX compiler ABI info
+[16.228s] -- Detecting CXX compiler ABI info - done
+[16.294s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[16.295s] -- Detecting CXX compile features
+[16.295s] -- Detecting CXX compile features - done
+[17.224s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[19.073s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[24.240s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[27.025s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[27.260s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[27.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[28.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[29.489s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[29.540s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[30.541s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[31.546s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[31.827s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[33.775s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[34.682s] -- Configuring done (33.6s)
+[34.789s] -- Generating done (0.1s)
+[34.822s] -- Build files have been written to: /home/joshua/wato_asd_training/build/costmap
+[34.869s] Invoked command in '/home/joshua/wato_asd_training/build/costmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/joshua/wato_asd_training/src/robot/costmap -DCMAKE_INSTALL_PREFIX=/home/joshua/wato_asd_training/install/costmap
+[34.877s] Invoking command in '/home/joshua/wato_asd_training/build/costmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/joshua/wato_asd_training/build/costmap -- -j4 -l4
+[35.153s] [ 25%] [32mBuilding CXX object CMakeFiles/costmap_lib.dir/src/costmap_core.cpp.o[0m
+[42.691s] In file included from [01m[K/home/joshua/wato_asd_training/src/robot/costmap/src/costmap_core.cpp:1[m[K:
+[42.692s] [01m[K/home/joshua/wato_asd_training/src/robot/costmap/src/costmap_core.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/occupancy_grid.hpp: No such file or directory
+[42.692s]     5 | #include [01;31m[K"nav_msgs/msg/occupancy_grid.hpp"[m[K
+[42.692s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[42.692s] compilation terminated.
+[42.706s] gmake[2]: *** [CMakeFiles/costmap_lib.dir/build.make:76: CMakeFiles/costmap_lib.dir/src/costmap_core.cpp.o] Error 1
+[42.706s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/costmap_lib.dir/all] Error 2
+[42.706s] gmake: *** [Makefile:146: all] Error 2
+[42.710s] Invoked command in '/home/joshua/wato_asd_training/build/costmap' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/joshua/wato_asd_training/build/costmap -- -j4 -l4

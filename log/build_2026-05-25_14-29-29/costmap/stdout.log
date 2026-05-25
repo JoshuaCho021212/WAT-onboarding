@@ -1,0 +1,41 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Configuring done (5.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/joshua/wato_asd_training/build/costmap
+[ 25%] [32mBuilding CXX object CMakeFiles/costmap_lib.dir/src/costmap_core.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libcostmap_lib.a[0m
+[ 50%] Built target costmap_lib
+[ 75%] [32mBuilding CXX object CMakeFiles/costmap_node.dir/src/costmap_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable costmap_node[0m
+[100%] Built target costmap_node
+-- Install configuration: ""
+-- Installing: /home/joshua/wato_asd_training/install/costmap/lib/costmap/costmap_node
+-- Set non-toolchain portion of runtime path of "/home/joshua/wato_asd_training/install/costmap/lib/costmap/costmap_node" to ""
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/config
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/config/params.yaml
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/ament_index/resource_index/package_run_dependencies/costmap
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/ament_index/resource_index/parent_prefix_path/costmap
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/environment/ament_prefix_path.sh
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/environment/ament_prefix_path.dsv
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/environment/path.sh
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/environment/path.dsv
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/local_setup.bash
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/local_setup.sh
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/local_setup.zsh
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/local_setup.dsv
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/package.dsv
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/ament_index/resource_index/packages/costmap
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/cmake/costmapConfig.cmake
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/cmake/costmapConfig-version.cmake
+-- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/package.xml

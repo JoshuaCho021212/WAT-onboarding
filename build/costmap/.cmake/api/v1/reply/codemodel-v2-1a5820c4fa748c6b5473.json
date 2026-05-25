@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e9a327cebd30f08aa2df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "costmap",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "costmap_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-costmap_lib-b0f6bf848597a0c8a0a0.json",
+					"name" : "costmap_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "costmap_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-costmap_node-8faf2057763bcec52797.json",
+					"name" : "costmap_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "costmap_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-costmap_uninstall-652984bc2c0c33f93b6a.json",
+					"name" : "costmap_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-426850f7b7268056060b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/joshua/wato_asd_training/build/costmap",
+		"source" : "/home/joshua/wato_asd_training/src/robot/costmap"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

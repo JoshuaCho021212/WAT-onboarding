@@ -1,0 +1,470 @@
+[0.000000] (-) TimerEvent: {}
+[0.001377] (-) JobUnselected: {'identifier': 'aggregator'}
+[0.001461] (-) JobUnselected: {'identifier': 'aggregator'}
+[0.001495] (-) JobUnselected: {'identifier': 'bringup_robot'}
+[0.001525] (-) JobUnselected: {'identifier': 'control'}
+[0.001554] (-) JobUnselected: {'identifier': 'gazebo'}
+[0.001579] (-) JobUnselected: {'identifier': 'map_memory'}
+[0.001608] (-) JobUnselected: {'identifier': 'odometry_spoof'}
+[0.001633] (-) JobUnselected: {'identifier': 'planner'}
+[0.001663] (-) JobUnselected: {'identifier': 'producer'}
+[0.001689] (-) JobUnselected: {'identifier': 'producer'}
+[0.001728] (-) JobUnselected: {'identifier': 'sample_msgs'}
+[0.001820] (-) JobUnselected: {'identifier': 'sample_msgs'}
+[0.001866] (-) JobUnselected: {'identifier': 'transformer'}
+[0.001901] (-) JobUnselected: {'identifier': 'transformer'}
+[0.001937] (costmap) JobQueued: {'identifier': 'costmap', 'dependencies': OrderedDict()}
+[0.002029] (costmap) JobStarted: {'identifier': 'costmap'}
+[0.094564] (-) TimerEvent: {}
+[0.201945] (-) TimerEvent: {}
+[0.311063] (-) TimerEvent: {}
+[0.320995] (costmap) JobProgress: {'identifier': 'costmap', 'progress': 'cmake'}
+[0.334117] (costmap) Command: {'cmd': ['/usr/bin/cmake', '/home/joshua/wato_asd_training/src/robot/costmap', '-DCMAKE_INSTALL_PREFIX=/home/joshua/wato_asd_training/install/costmap'], 'cwd': '/home/joshua/wato_asd_training/build/costmap', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'joshua', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/joshua', 'OLDPWD': '/mnt/c/WINDOWS/system32', 'NVM_BIN': '/home/joshua/.nvm/versions/node/v24.15.0/bin', 'NVM_INC': '/home/joshua/.nvm/versions/node/v24.15.0/include/node', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'NVM_DIR': '/home/joshua/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'joshua', 'NAME': 'LAPTOP-HVS60GU2', 'WSL_INTEROP': '/run/WSL/23558_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/joshua/.local/bin:/home/joshua/.nvm/versions/node/v24.15.0/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Muse Hub/lib:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/User/AppData/Local/GitHubDesktop/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/joshua/wato_asd_training/build/costmap', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.420193] (-) TimerEvent: {}
+[0.535927] (-) TimerEvent: {}
+[0.636409] (-) TimerEvent: {}
+[0.736848] (-) TimerEvent: {}
+[0.844339] (-) TimerEvent: {}
+[0.946926] (-) TimerEvent: {}
+[1.048757] (-) TimerEvent: {}
+[1.155426] (-) TimerEvent: {}
+[1.255976] (-) TimerEvent: {}
+[1.372294] (-) TimerEvent: {}
+[1.478163] (-) TimerEvent: {}
+[1.578943] (-) TimerEvent: {}
+[1.679608] (-) TimerEvent: {}
+[1.781175] (-) TimerEvent: {}
+[1.883729] (-) TimerEvent: {}
+[1.984193] (-) TimerEvent: {}
+[2.088180] (-) TimerEvent: {}
+[2.199839] (-) TimerEvent: {}
+[2.305340] (-) TimerEvent: {}
+[2.406068] (-) TimerEvent: {}
+[2.508227] (-) TimerEvent: {}
+[2.608610] (-) TimerEvent: {}
+[2.710679] (-) TimerEvent: {}
+[2.811233] (-) TimerEvent: {}
+[2.911594] (-) TimerEvent: {}
+[3.015784] (-) TimerEvent: {}
+[3.118052] (-) TimerEvent: {}
+[3.218666] (-) TimerEvent: {}
+[3.320283] (-) TimerEvent: {}
+[3.422009] (-) TimerEvent: {}
+[3.525787] (-) TimerEvent: {}
+[3.630464] (-) TimerEvent: {}
+[3.632014] (costmap) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[3.735216] (-) TimerEvent: {}
+[3.836684] (-) TimerEvent: {}
+[3.937092] (-) TimerEvent: {}
+[4.040442] (-) TimerEvent: {}
+[4.141186] (-) TimerEvent: {}
+[4.250812] (-) TimerEvent: {}
+[4.361808] (-) TimerEvent: {}
+[4.462416] (-) TimerEvent: {}
+[4.563072] (-) TimerEvent: {}
+[4.665959] (-) TimerEvent: {}
+[4.767218] (-) TimerEvent: {}
+[4.867781] (-) TimerEvent: {}
+[4.968326] (-) TimerEvent: {}
+[5.069403] (-) TimerEvent: {}
+[5.172719] (-) TimerEvent: {}
+[5.278826] (-) TimerEvent: {}
+[5.382888] (-) TimerEvent: {}
+[5.484950] (-) TimerEvent: {}
+[5.585482] (-) TimerEvent: {}
+[5.686148] (-) TimerEvent: {}
+[5.786755] (-) TimerEvent: {}
+[5.889081] (-) TimerEvent: {}
+[5.989754] (-) TimerEvent: {}
+[6.091818] (-) TimerEvent: {}
+[6.192258] (-) TimerEvent: {}
+[6.295452] (-) TimerEvent: {}
+[6.396468] (-) TimerEvent: {}
+[6.497444] (-) TimerEvent: {}
+[6.598285] (-) TimerEvent: {}
+[6.701931] (-) TimerEvent: {}
+[6.802315] (-) TimerEvent: {}
+[6.904351] (-) TimerEvent: {}
+[7.007785] (-) TimerEvent: {}
+[7.108750] (-) TimerEvent: {}
+[7.235673] (-) TimerEvent: {}
+[7.278349] (costmap) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[7.336197] (-) TimerEvent: {}
+[7.437097] (-) TimerEvent: {}
+[7.538305] (-) TimerEvent: {}
+[7.639025] (-) TimerEvent: {}
+[7.739915] (-) TimerEvent: {}
+[7.841555] (-) TimerEvent: {}
+[7.944753] (-) TimerEvent: {}
+[8.050413] (-) TimerEvent: {}
+[8.157120] (-) TimerEvent: {}
+[8.258000] (-) TimerEvent: {}
+[8.359016] (-) TimerEvent: {}
+[8.459415] (-) TimerEvent: {}
+[8.559779] (-) TimerEvent: {}
+[8.662068] (-) TimerEvent: {}
+[8.777528] (-) TimerEvent: {}
+[8.878123] (-) TimerEvent: {}
+[8.979576] (-) TimerEvent: {}
+[9.080627] (-) TimerEvent: {}
+[9.180958] (-) TimerEvent: {}
+[9.285603] (-) TimerEvent: {}
+[9.386046] (-) TimerEvent: {}
+[9.486584] (-) TimerEvent: {}
+[9.589661] (-) TimerEvent: {}
+[9.675876] (costmap) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.689724] (-) TimerEvent: {}
+[9.795405] (-) TimerEvent: {}
+[9.895914] (-) TimerEvent: {}
+[9.996874] (-) TimerEvent: {}
+[10.098951] (-) TimerEvent: {}
+[10.199328] (-) TimerEvent: {}
+[10.308871] (-) TimerEvent: {}
+[10.419413] (-) TimerEvent: {}
+[10.534239] (-) TimerEvent: {}
+[10.638307] (-) TimerEvent: {}
+[10.741834] (-) TimerEvent: {}
+[10.842357] (-) TimerEvent: {}
+[10.955782] (-) TimerEvent: {}
+[11.060847] (-) TimerEvent: {}
+[11.171057] (-) TimerEvent: {}
+[11.282132] (-) TimerEvent: {}
+[11.411379] (-) TimerEvent: {}
+[11.512167] (-) TimerEvent: {}
+[11.612580] (-) TimerEvent: {}
+[11.713331] (-) TimerEvent: {}
+[11.820436] (-) TimerEvent: {}
+[11.921282] (-) TimerEvent: {}
+[12.021959] (-) TimerEvent: {}
+[12.127170] (-) TimerEvent: {}
+[12.227813] (-) TimerEvent: {}
+[12.328197] (-) TimerEvent: {}
+[12.439333] (-) TimerEvent: {}
+[12.540742] (-) TimerEvent: {}
+[12.641207] (-) TimerEvent: {}
+[12.742674] (-) TimerEvent: {}
+[12.799931] (costmap) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[12.840437] (costmap) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[12.842849] (-) TimerEvent: {}
+[12.847554] (costmap) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[12.855845] (costmap) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[12.946926] (-) TimerEvent: {}
+[13.051215] (-) TimerEvent: {}
+[13.158692] (-) TimerEvent: {}
+[13.261898] (-) TimerEvent: {}
+[13.363547] (-) TimerEvent: {}
+[13.464071] (-) TimerEvent: {}
+[13.564774] (-) TimerEvent: {}
+[13.676406] (-) TimerEvent: {}
+[13.776948] (-) TimerEvent: {}
+[13.825985] (costmap) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.877125] (-) TimerEvent: {}
+[13.983790] (-) TimerEvent: {}
+[14.084261] (-) TimerEvent: {}
+[14.185656] (-) TimerEvent: {}
+[14.296125] (-) TimerEvent: {}
+[14.396598] (-) TimerEvent: {}
+[14.503820] (-) TimerEvent: {}
+[14.614673] (-) TimerEvent: {}
+[14.716117] (-) TimerEvent: {}
+[14.816550] (-) TimerEvent: {}
+[14.920182] (-) TimerEvent: {}
+[15.020886] (-) TimerEvent: {}
+[15.122254] (-) TimerEvent: {}
+[15.223067] (-) TimerEvent: {}
+[15.324529] (-) TimerEvent: {}
+[15.433891] (-) TimerEvent: {}
+[15.541157] (-) TimerEvent: {}
+[15.650629] (-) TimerEvent: {}
+[15.751667] (-) TimerEvent: {}
+[15.852469] (-) TimerEvent: {}
+[15.964112] (-) TimerEvent: {}
+[16.076371] (-) TimerEvent: {}
+[16.189306] (-) TimerEvent: {}
+[16.229423] (costmap) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[16.295874] (costmap) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[16.296159] (-) TimerEvent: {}
+[16.296498] (costmap) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[16.296855] (costmap) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[16.407019] (-) TimerEvent: {}
+[16.507589] (-) TimerEvent: {}
+[16.608733] (-) TimerEvent: {}
+[16.717757] (-) TimerEvent: {}
+[16.820753] (-) TimerEvent: {}
+[16.924937] (-) TimerEvent: {}
+[17.028967] (-) TimerEvent: {}
+[17.133214] (-) TimerEvent: {}
+[17.225984] (costmap) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[17.238548] (-) TimerEvent: {}
+[17.348976] (-) TimerEvent: {}
+[17.450803] (-) TimerEvent: {}
+[17.558539] (-) TimerEvent: {}
+[17.658947] (-) TimerEvent: {}
+[17.766405] (-) TimerEvent: {}
+[17.885047] (-) TimerEvent: {}
+[17.996379] (-) TimerEvent: {}
+[18.096974] (-) TimerEvent: {}
+[18.202383] (-) TimerEvent: {}
+[18.308029] (-) TimerEvent: {}
+[18.411090] (-) TimerEvent: {}
+[18.511568] (-) TimerEvent: {}
+[18.624387] (-) TimerEvent: {}
+[18.724842] (-) TimerEvent: {}
+[18.850293] (-) TimerEvent: {}
+[18.962926] (-) TimerEvent: {}
+[19.074356] (costmap) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[19.074817] (-) TimerEvent: {}
+[19.175175] (-) TimerEvent: {}
+[19.286519] (-) TimerEvent: {}
+[19.396232] (-) TimerEvent: {}
+[19.498170] (-) TimerEvent: {}
+[19.606037] (-) TimerEvent: {}
+[19.706417] (-) TimerEvent: {}
+[19.829856] (-) TimerEvent: {}
+[19.941904] (-) TimerEvent: {}
+[20.042333] (-) TimerEvent: {}
+[20.150828] (-) TimerEvent: {}
+[20.251222] (-) TimerEvent: {}
+[20.359535] (-) TimerEvent: {}
+[20.487604] (-) TimerEvent: {}
+[20.588033] (-) TimerEvent: {}
+[20.696414] (-) TimerEvent: {}
+[20.796854] (-) TimerEvent: {}
+[20.919860] (-) TimerEvent: {}
+[21.025166] (-) TimerEvent: {}
+[21.125897] (-) TimerEvent: {}
+[21.233476] (-) TimerEvent: {}
+[21.346064] (-) TimerEvent: {}
+[21.446588] (-) TimerEvent: {}
+[21.555199] (-) TimerEvent: {}
+[21.656069] (-) TimerEvent: {}
+[21.766786] (-) TimerEvent: {}
+[21.882639] (-) TimerEvent: {}
+[21.983068] (-) TimerEvent: {}
+[22.146642] (-) TimerEvent: {}
+[22.345138] (-) TimerEvent: {}
+[22.677669] (-) TimerEvent: {}
+[22.839974] (-) TimerEvent: {}
+[22.946439] (-) TimerEvent: {}
+[23.055054] (-) TimerEvent: {}
+[23.159199] (-) TimerEvent: {}
+[23.269630] (-) TimerEvent: {}
+[23.370276] (-) TimerEvent: {}
+[23.470910] (-) TimerEvent: {}
+[23.571475] (-) TimerEvent: {}
+[23.674588] (-) TimerEvent: {}
+[23.775397] (-) TimerEvent: {}
+[23.880545] (-) TimerEvent: {}
+[23.982083] (-) TimerEvent: {}
+[24.082755] (-) TimerEvent: {}
+[24.183471] (-) TimerEvent: {}
+[24.241760] (costmap) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[24.283646] (-) TimerEvent: {}
+[24.384414] (-) TimerEvent: {}
+[24.485040] (-) TimerEvent: {}
+[24.587042] (-) TimerEvent: {}
+[24.688794] (-) TimerEvent: {}
+[24.796577] (-) TimerEvent: {}
+[24.897067] (-) TimerEvent: {}
+[25.005158] (-) TimerEvent: {}
+[25.105578] (-) TimerEvent: {}
+[25.206083] (-) TimerEvent: {}
+[25.310601] (-) TimerEvent: {}
+[25.421695] (-) TimerEvent: {}
+[25.532798] (-) TimerEvent: {}
+[25.633394] (-) TimerEvent: {}
+[25.761267] (-) TimerEvent: {}
+[25.870146] (-) TimerEvent: {}
+[25.970734] (-) TimerEvent: {}
+[26.072184] (-) TimerEvent: {}
+[26.184968] (-) TimerEvent: {}
+[26.289696] (-) TimerEvent: {}
+[26.390606] (-) TimerEvent: {}
+[26.502951] (-) TimerEvent: {}
+[26.603672] (-) TimerEvent: {}
+[26.707318] (-) TimerEvent: {}
+[26.810045] (-) TimerEvent: {}
+[26.913289] (-) TimerEvent: {}
+[27.013893] (-) TimerEvent: {}
+[27.027166] (costmap) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[27.114287] (-) TimerEvent: {}
+[27.214676] (-) TimerEvent: {}
+[27.253257] (costmap) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[27.314868] (-) TimerEvent: {}
+[27.418987] (-) TimerEvent: {}
+[27.520109] (-) TimerEvent: {}
+[27.624547] (-) TimerEvent: {}
+[27.724944] (-) TimerEvent: {}
+[27.782096] (costmap) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[27.825076] (-) TimerEvent: {}
+[27.925611] (-) TimerEvent: {}
+[28.026401] (-) TimerEvent: {}
+[28.061368] (costmap) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[28.127873] (-) TimerEvent: {}
+[28.230574] (-) TimerEvent: {}
+[28.331605] (-) TimerEvent: {}
+[28.432046] (-) TimerEvent: {}
+[28.533062] (-) TimerEvent: {}
+[28.633816] (-) TimerEvent: {}
+[28.735915] (-) TimerEvent: {}
+[28.839372] (-) TimerEvent: {}
+[28.940621] (-) TimerEvent: {}
+[29.041509] (-) TimerEvent: {}
+[29.151078] (-) TimerEvent: {}
+[29.252454] (-) TimerEvent: {}
+[29.361077] (-) TimerEvent: {}
+[29.461716] (-) TimerEvent: {}
+[29.489663] (costmap) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[29.541007] (costmap) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[29.562095] (-) TimerEvent: {}
+[29.667640] (-) TimerEvent: {}
+[29.770371] (-) TimerEvent: {}
+[29.876958] (-) TimerEvent: {}
+[29.977340] (-) TimerEvent: {}
+[30.079918] (-) TimerEvent: {}
+[30.180362] (-) TimerEvent: {}
+[30.280799] (-) TimerEvent: {}
+[30.382069] (-) TimerEvent: {}
+[30.486643] (-) TimerEvent: {}
+[30.542304] (costmap) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[30.586812] (-) TimerEvent: {}
+[30.687387] (-) TimerEvent: {}
+[30.787789] (-) TimerEvent: {}
+[30.888221] (-) TimerEvent: {}
+[30.988884] (-) TimerEvent: {}
+[31.089422] (-) TimerEvent: {}
+[31.191951] (-) TimerEvent: {}
+[31.293758] (-) TimerEvent: {}
+[31.405857] (-) TimerEvent: {}
+[31.506376] (-) TimerEvent: {}
+[31.547573] (costmap) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[31.606799] (-) TimerEvent: {}
+[31.707756] (-) TimerEvent: {}
+[31.809217] (-) TimerEvent: {}
+[31.828586] (costmap) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[31.911575] (-) TimerEvent: {}
+[32.012984] (-) TimerEvent: {}
+[32.124717] (-) TimerEvent: {}
+[32.232500] (-) TimerEvent: {}
+[32.332872] (-) TimerEvent: {}
+[32.433294] (-) TimerEvent: {}
+[32.536038] (-) TimerEvent: {}
+[32.636796] (-) TimerEvent: {}
+[32.737681] (-) TimerEvent: {}
+[32.839252] (-) TimerEvent: {}
+[32.944114] (-) TimerEvent: {}
+[33.044703] (-) TimerEvent: {}
+[33.146446] (-) TimerEvent: {}
+[33.251087] (-) TimerEvent: {}
+[33.351581] (-) TimerEvent: {}
+[33.454944] (-) TimerEvent: {}
+[33.555876] (-) TimerEvent: {}
+[33.659928] (-) TimerEvent: {}
+[33.762041] (-) TimerEvent: {}
+[33.776735] (costmap) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[33.864483] (-) TimerEvent: {}
+[33.968988] (-) TimerEvent: {}
+[34.072887] (-) TimerEvent: {}
+[34.180410] (-) TimerEvent: {}
+[34.280818] (-) TimerEvent: {}
+[34.381233] (-) TimerEvent: {}
+[34.481782] (-) TimerEvent: {}
+[34.583665] (-) TimerEvent: {}
+[34.683440] (costmap) StdoutLine: {'line': b'-- Configuring done (33.6s)\n'}
+[34.683809] (-) TimerEvent: {}
+[34.784162] (-) TimerEvent: {}
+[34.790883] (costmap) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[34.823960] (costmap) StdoutLine: {'line': b'-- Build files have been written to: /home/joshua/wato_asd_training/build/costmap\n'}
+[34.870560] (costmap) CommandEnded: {'returncode': 0}
+[34.871224] (costmap) JobProgress: {'identifier': 'costmap', 'progress': 'build'}
+[34.871273] (costmap) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joshua/wato_asd_training/build/costmap', '--', '-j4', '-l4'], 'cwd': '/home/joshua/wato_asd_training/build/costmap', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'joshua', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/joshua', 'OLDPWD': '/mnt/c/WINDOWS/system32', 'NVM_BIN': '/home/joshua/.nvm/versions/node/v24.15.0/bin', 'NVM_INC': '/home/joshua/.nvm/versions/node/v24.15.0/include/node', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'NVM_DIR': '/home/joshua/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'joshua', 'NAME': 'LAPTOP-HVS60GU2', 'WSL_INTEROP': '/run/WSL/23558_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/joshua/.local/bin:/home/joshua/.nvm/versions/node/v24.15.0/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Muse Hub/lib:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/User/AppData/Local/GitHubDesktop/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/joshua/wato_asd_training/build/costmap', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[34.887214] (-) TimerEvent: {}
+[34.987755] (-) TimerEvent: {}
+[35.089035] (-) TimerEvent: {}
+[35.155002] (costmap) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/costmap_lib.dir/src/costmap_core.cpp.o\x1b[0m\n'}
+[35.195825] (-) TimerEvent: {}
+[35.296244] (-) TimerEvent: {}
+[35.401236] (-) TimerEvent: {}
+[35.503829] (-) TimerEvent: {}
+[35.604235] (-) TimerEvent: {}
+[35.705178] (-) TimerEvent: {}
+[35.805595] (-) TimerEvent: {}
+[35.906117] (-) TimerEvent: {}
+[36.012351] (-) TimerEvent: {}
+[36.113055] (-) TimerEvent: {}
+[36.213475] (-) TimerEvent: {}
+[36.322726] (-) TimerEvent: {}
+[36.423330] (-) TimerEvent: {}
+[36.524573] (-) TimerEvent: {}
+[36.632305] (-) TimerEvent: {}
+[36.733524] (-) TimerEvent: {}
+[36.833981] (-) TimerEvent: {}
+[36.935677] (-) TimerEvent: {}
+[37.036308] (-) TimerEvent: {}
+[37.148254] (-) TimerEvent: {}
+[37.248747] (-) TimerEvent: {}
+[37.349186] (-) TimerEvent: {}
+[37.452075] (-) TimerEvent: {}
+[37.557399] (-) TimerEvent: {}
+[37.658830] (-) TimerEvent: {}
+[37.759494] (-) TimerEvent: {}
+[37.860381] (-) TimerEvent: {}
+[37.962293] (-) TimerEvent: {}
+[38.062729] (-) TimerEvent: {}
+[38.163130] (-) TimerEvent: {}
+[38.271935] (-) TimerEvent: {}
+[38.382599] (-) TimerEvent: {}
+[38.490050] (-) TimerEvent: {}
+[38.592915] (-) TimerEvent: {}
+[38.708121] (-) TimerEvent: {}
+[38.808617] (-) TimerEvent: {}
+[38.909158] (-) TimerEvent: {}
+[39.011245] (-) TimerEvent: {}
+[39.119071] (-) TimerEvent: {}
+[39.219746] (-) TimerEvent: {}
+[39.333926] (-) TimerEvent: {}
+[39.440277] (-) TimerEvent: {}
+[39.541479] (-) TimerEvent: {}
+[39.645632] (-) TimerEvent: {}
+[39.750097] (-) TimerEvent: {}
+[39.850929] (-) TimerEvent: {}
+[39.951357] (-) TimerEvent: {}
+[40.054264] (-) TimerEvent: {}
+[40.154965] (-) TimerEvent: {}
+[40.255562] (-) TimerEvent: {}
+[40.356094] (-) TimerEvent: {}
+[40.457483] (-) TimerEvent: {}
+[40.558010] (-) TimerEvent: {}
+[40.666862] (-) TimerEvent: {}
+[40.773415] (-) TimerEvent: {}
+[40.874011] (-) TimerEvent: {}
+[40.976849] (-) TimerEvent: {}
+[41.077748] (-) TimerEvent: {}
+[41.184731] (-) TimerEvent: {}
+[41.286240] (-) TimerEvent: {}
+[41.387200] (-) TimerEvent: {}
+[41.488924] (-) TimerEvent: {}
+[41.595928] (-) TimerEvent: {}
+[41.696838] (-) TimerEvent: {}
+[41.798374] (-) TimerEvent: {}
+[41.899011] (-) TimerEvent: {}
+[42.007011] (-) TimerEvent: {}
+[42.109088] (-) TimerEvent: {}
+[42.215161] (-) TimerEvent: {}
+[42.318573] (-) TimerEvent: {}
+[42.419153] (-) TimerEvent: {}
+[42.519540] (-) TimerEvent: {}
+[42.632230] (-) TimerEvent: {}
+[42.693129] (costmap) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/joshua/wato_asd_training/src/robot/costmap/src/costmap_core.cpp:1\x1b[m\x1b[K:\n'}
+[42.693585] (costmap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joshua/wato_asd_training/src/robot/costmap/src/costmap_core.hpp:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knav_msgs/msg/occupancy_grid.hpp: No such file or directory\n'}
+[42.693873] (costmap) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K"nav_msgs/msg/occupancy_grid.hpp"\x1b[m\x1b[K\n'}
+[42.694090] (costmap) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[42.694283] (costmap) StderrLine: {'line': b'compilation terminated.\n'}
+[42.707585] (costmap) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/costmap_lib.dir/build.make:76: CMakeFiles/costmap_lib.dir/src/costmap_core.cpp.o] Error 1\n'}
+[42.708025] (costmap) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/costmap_lib.dir/all] Error 2\n'}
+[42.708263] (costmap) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[42.711786] (costmap) CommandEnded: {'returncode': 2}
+[42.733553] (-) TimerEvent: {}
+[42.835875] (-) TimerEvent: {}
+[42.879090] (costmap) JobEnded: {'identifier': 'costmap', 'rc': 2}
+[42.891423] (-) EventReactorShutdown: {}

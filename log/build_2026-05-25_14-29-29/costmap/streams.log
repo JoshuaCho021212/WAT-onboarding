@@ -1,0 +1,45 @@
+[0.053s] Invoking command in '/home/joshua/wato_asd_training/build/costmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/joshua/wato_asd_training/build/costmap -- -j4 -l4
+[0.213s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.254s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.637s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.675s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.751s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.806s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.213s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.224s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.165s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.408s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[4.498s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[5.195s] -- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[5.947s] -- Configuring done (5.7s)
+[6.097s] -- Generating done (0.1s)
+[6.116s] -- Build files have been written to: /home/joshua/wato_asd_training/build/costmap
+[6.294s] [ 25%] [32mBuilding CXX object CMakeFiles/costmap_lib.dir/src/costmap_core.cpp.o[0m
+[34.598s] [ 50%] [32m[1mLinking CXX static library libcostmap_lib.a[0m
+[34.870s] [ 50%] Built target costmap_lib
+[34.999s] [ 75%] [32mBuilding CXX object CMakeFiles/costmap_node.dir/src/costmap_node.cpp.o[0m
+[62.378s] [100%] [32m[1mLinking CXX executable costmap_node[0m
+[66.685s] [100%] Built target costmap_node
+[66.759s] Invoked command in '/home/joshua/wato_asd_training/build/costmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/joshua/wato_asd_training/build/costmap -- -j4 -l4
+[66.812s] Invoking command in '/home/joshua/wato_asd_training/build/costmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/joshua/wato_asd_training/build/costmap
+[66.882s] -- Install configuration: ""
+[66.884s] -- Installing: /home/joshua/wato_asd_training/install/costmap/lib/costmap/costmap_node
+[66.904s] -- Set non-toolchain portion of runtime path of "/home/joshua/wato_asd_training/install/costmap/lib/costmap/costmap_node" to ""
+[66.914s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/config
+[66.917s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/config/params.yaml
+[66.933s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/ament_index/resource_index/package_run_dependencies/costmap
+[66.946s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/ament_index/resource_index/parent_prefix_path/costmap
+[66.947s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/environment/ament_prefix_path.sh
+[66.947s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/environment/ament_prefix_path.dsv
+[66.948s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/environment/path.sh
+[66.949s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/environment/path.dsv
+[66.950s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/local_setup.bash
+[66.951s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/local_setup.sh
+[66.952s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/local_setup.zsh
+[66.966s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/local_setup.dsv
+[66.966s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/package.dsv
+[66.966s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/ament_index/resource_index/packages/costmap
+[66.967s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/cmake/costmapConfig.cmake
+[66.967s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/cmake/costmapConfig-version.cmake
+[66.968s] -- Installing: /home/joshua/wato_asd_training/install/costmap/share/costmap/package.xml
+[66.984s] Invoked command in '/home/joshua/wato_asd_training/build/costmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/joshua/wato_asd_training/build/costmap

@@ -1,0 +1,4 @@
+Invoking command in '/home/joshua/wato_asd_training/build/costmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/joshua/wato_asd_training/src/robot/costmap -DCMAKE_INSTALL_PREFIX=/home/joshua/wato_asd_training/install/costmap
+Invoked command in '/home/joshua/wato_asd_training/build/costmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/joshua/wato_asd_training/src/robot/costmap -DCMAKE_INSTALL_PREFIX=/home/joshua/wato_asd_training/install/costmap
+Invoking command in '/home/joshua/wato_asd_training/build/costmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/joshua/wato_asd_training/build/costmap -- -j4 -l4
+Invoked command in '/home/joshua/wato_asd_training/build/costmap' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/joshua/wato_asd_training/build/costmap -- -j4 -l4
