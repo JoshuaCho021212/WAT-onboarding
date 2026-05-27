@@ -6,21 +6,20 @@
 
 namespace robot
 {
-
 class MapMemoryCore {
   public:
     explicit MapMemoryCore(const rclcpp::Logger& logger);
     void integrateCostmap(
       const nav_msgs::msg::OccupancyGrid& costmap, 
-      nav_msgs::msg::OccupancyGrid& globalmap, 
       double robot_x, 
       double robot_y,
       double robot_yaw);
+    nav_msgs::msg::OccupancyGrid getGlobalMap();
 
   private:
     rclcpp::Logger logger_;   
+    nav_msgs::msg::OccupancyGrid global_map_;
 };
-
 }  
 
 #endif  
