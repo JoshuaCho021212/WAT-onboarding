@@ -47,8 +47,8 @@ void MapMemoryNode::odomCallback(const nav_msgs::msg::Odometry::SharedPtr msg) {
 
 void MapMemoryNode::updateMap() {
   if (should_update_ && costmap_received_) {
-    map_memory_.integrateCostmap(latest_costmap_, global_map_, robot_x_, robot_y_, robot_yaw_);
-    map_pub_->publish(global_map_);
+    map_memory_.integrateCostmap(latest_costmap_, robot_x_, robot_y_, robot_yaw_);
+    map_pub_->publish(map_memory_.getGlobalMap());
     should_update_ = false;
   }
 }
