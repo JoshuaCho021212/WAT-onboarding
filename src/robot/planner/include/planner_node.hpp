@@ -29,6 +29,7 @@ class PlannerNode : public rclcpp::Node {
     geometry_msgs::msg::PointStamped goal_;
     geometry_msgs::msg::Pose robot_pose_;
     bool goal_received_ = false;
+    bool goal_Reached();
 
     void mapCallback(const nav_msgs::msg::OccupancyGrid::SharedPtr msg);
     void goalCallback(const geometry_msgs::msg::PointStamped::SharedPtr msg);
