@@ -24,7 +24,7 @@ void CostmapCore::markObstacle(int x_grid, int y_grid) {
 }
 
 void CostmapCore::inflateObstacles() {
-  int inflation_cells = static_cast<int>(1.0 / resolution_); 
+  int inflation_cells = static_cast<int>(1.0 / resolution_);
   auto grid_copy = grid_;
   for (int y = 0; y < height_; ++y) {
     for (int x = 0; x < width_; ++x) {
@@ -48,9 +48,17 @@ void CostmapCore::inflateObstacles() {
 }
 
 nav_msgs::msg::OccupancyGrid CostmapCore::publishCostmap() {
+  costmap_.header.frame_id = "base_link";
+  costmap_.header.stamp = rclcpp::Clock().now();
+
   costmap_.info.resolution = resolution_;
   costmap_.info.width = width_;
   costmap_.info.height = height_;
+  costmap_.info.origin.position.x = -(width_ * resolution_) / 2.0;
+  costmap_.info.origin.position.y = -(height_ * resolution_) / 2.0;
+  costmap_.info.origin.position.z = 0.0;
+  costmap_.info.origin.orientation.w = 1.0;
+
   costmap_.data.clear();
   for (int y = 0; y < height_; ++y) {
     for (int x = 0; x < width_; ++x) {
@@ -60,4 +68,4 @@ nav_msgs::msg::OccupancyGrid CostmapCore::publishCostmap() {
   return costmap_;
 }
 
-}
+} // namespace robot
