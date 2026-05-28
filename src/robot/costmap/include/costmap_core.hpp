@@ -21,8 +21,8 @@ private:
   rclcpp::Logger logger_;
   nav_msgs::msg::OccupancyGrid costmap_;
   std::vector<std::vector<int>> grid_;
-  int width_ = 100;
-  int height_ = 100;
+  int width_ = 200;
+  int height_ = 200;
   double resolution_ = 0.1;
 };
 

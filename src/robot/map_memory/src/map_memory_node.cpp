@@ -29,7 +29,7 @@ void MapMemoryNode::odomCallback(const nav_msgs::msg::Odometry::SharedPtr msg) {
   robot_y_ = y;
 
   double distance = std::sqrt(std::pow(x - last_x_, 2) + std::pow(y - last_y_, 2));
-  if (distance >= 1.5) {
+  if (distance >= 0.3) {
     last_x_ = x;
     last_y_ = y;
     should_update_ = true;

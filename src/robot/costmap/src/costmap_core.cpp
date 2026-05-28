@@ -54,8 +54,8 @@ nav_msgs::msg::OccupancyGrid CostmapCore::publishCostmap() {
   costmap_.info.resolution = resolution_;
   costmap_.info.width = width_;
   costmap_.info.height = height_;
-  costmap_.info.origin.position.x = -(width_ * resolution_) / 2.0;
-  costmap_.info.origin.position.y = -(height_ * resolution_) / 2.0;
+  costmap_.info.origin.position.x = -(200 * 0.1) / 2.0;
+  costmap_.info.origin.position.y = -(200 * 0.1) / 2.0;
   costmap_.info.origin.position.z = 0.0;
   costmap_.info.origin.orientation.w = 1.0;
 
