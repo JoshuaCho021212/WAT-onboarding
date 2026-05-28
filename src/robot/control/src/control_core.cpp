@@ -24,9 +24,9 @@ namespace robot
 
   auto& robot_pos = current_odometry_->pose.pose.position;
   auto& goal_pos  = current_path_->poses.back().pose.position;
-  double dx = goal_pos.x - robot_pos.x;
-  double dy = goal_pos.y - robot_pos.y;
-  double dist = std::sqrt(dx*dx + dy*dy);
+  double gdx = goal_pos.x - robot_pos.x;
+  double gdy = goal_pos.y - robot_pos.y;
+  double dist = std::sqrt(gdx*gdx + gdy*gdy);
     
   if(dist < goal_tolerance_) {
       return cmd;
