@@ -9,6 +9,8 @@ MapMemoryNode::MapMemoryNode() : Node("map_memory"), map_memory_(robot::MapMemor
   map_pub_ = this->create_publisher<nav_msgs::msg::OccupancyGrid>("/map", 10);
   timer_ = this->create_wall_timer(
       std::chrono::seconds(1), std::bind(&MapMemoryNode::updateMap, this));
+
+  map_pub_->publish(map_memory_.getGlobalMap());
 }
 
 void MapMemoryNode::costmapCallback(const nav_msgs::msg::OccupancyGrid::SharedPtr msg) {
@@ -19,13 +21,15 @@ void MapMemoryNode::costmapCallback(const nav_msgs::msg::OccupancyGrid::SharedPt
 void MapMemoryNode::odomCallback(const nav_msgs::msg::Odometry::SharedPtr msg) {
   double x = msg->pose.pose.position.x;
   double y = msg->pose.pose.position.y;
+
+  auto q = msg->pose.pose.orientation;
+  robot_yaw_ = std::atan2(2.0 * (q.w * q.z + q.x * q.y),
+                          1.0 - 2.0 * (q.y * q.y + q.z * q.z));
+  robot_x_ = x;
+  robot_y_ = y;
+
   double distance = std::sqrt(std::pow(x - last_x_, 2) + std::pow(y - last_y_, 2));
   if (distance >= 1.5) {
-    robot_x_ = x;
-    robot_y_ = y;
-    auto q = msg->pose.pose.orientation;
-    robot_yaw_ = std::atan2(2.0 * (q.w * q.z + q.x * q.y),
-                            1.0 - 2.0 * (q.y * q.y + q.z * q.z));
     last_x_ = x;
     last_y_ = y;
     should_update_ = true;
