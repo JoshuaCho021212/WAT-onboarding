@@ -1,4 +1,6 @@
 #include "map_memory_core.hpp"
+#include <cmath>
+
 namespace robot
 {
 MapMemoryCore::MapMemoryCore(const rclcpp::Logger& logger) 
